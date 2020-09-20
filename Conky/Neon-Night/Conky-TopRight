@@ -1,0 +1,58 @@
+conky.config = {
+    alignment = 'top_right',
+    background = false,
+    border_width = 1,
+    cpu_avg_samples = 2,
+    default_color = '#072339',
+    default_outline_color = 'white',
+    override_utf8_locale = true,
+    default_shade_color = 'white',
+    draw_borders = false,
+    draw_graph_borders = true,
+    draw_outline = false,
+    draw_shades = false,
+    use_xft = true,
+    xftalpha = 1.0,
+    total_run_times = 0,
+    gap_x = 30,
+    gap_y = 20,
+    minimum_height = 350,
+    minimum_width =500,
+    maximum_width = 620,
+    net_avg_samples = 2,
+    own_window = true,
+    own_window_transparent = true,
+    own_window_type = 'dock',
+    own_window_class = 'Conky',
+    own_window_argb_visual = true,
+    own_window_argb_value = 255,
+    own_window_colour = '#000',
+    own_window_hints = 'below,sticky,skip_taskbar,undecorated,skip_pager',
+    double_buffer = true,
+    no_buffers = true,
+    out_to_console = false,
+    out_to_stderr = false,
+    extra_newline = false,
+    stippled_borders = 0,
+    update_interval = 1.0,
+    uppercase = false,
+    use_spacer = 'none',
+    show_graph_scale = false,
+    show_graph_range = false,
+    font = 'JaneAusten',
+}
+
+conky.text = [[
+
+${voffset 0}${font WildYouth:size=30:weight=bold}${color #003054}System Info
+${font SFMono:size=15}${color #072339}Kernel $alignr$kernel
+${color #072339}Distro ${color #072339}$alignr${exec lsb_release -ds | sed 's/"//g'}
+${color #072339}Uptime ${color #072339}$alignr${uptime}
+${color #072339}Memory ${color #072339}$alignr$mem/$memmax
+${color #072339}${membar 4}
+${color #072339}CPU ${color #072339}$alignr$cpu%
+${color #072339}${cpubar 4}
+
+
+
+]]
