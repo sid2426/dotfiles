@@ -1,21 +1,21 @@
 <?xml version="1.0"?>
 <metacity_theme>
 <info>
-  <name>Materia</name>
+  <name>oomox-lcars</name>
   <author>nana-4</author>
   <copyright>GPL</copyright>
   <date>2020</date>
-  <description>Materia Metacity theme</description>
+  <description>oomox-lcars Metacity theme</description>
 </info>
 
 <!-- meaningful constants -->
 
-<constant name="C_titlebar_focused" value="#082a39"/>
-<constant name="C_titlebar_unfocused" value="#002a39"/>
-<constant name="C_highlight_focused" value="blend/#082a39/#00b7af/0.1"/>
-<constant name="C_highlight_unfocused" value="blend/#002a39/#00b7af/0.1"/>
-<constant name="C_title_focused" value="blend/#082a39/#00b7af/0.87"/>
-<constant name="C_title_unfocused" value="blend/#002a39/#00b7af/0.6"/>
+<constant name="C_titlebar_focused" value="#001a29"/>
+<constant name="C_titlebar_unfocused" value="#043745"/>
+<constant name="C_highlight_focused" value="blend/#001a29/#04c3bb/0.1"/>
+<constant name="C_highlight_unfocused" value="blend/#043745/#04c3bb/0.1"/>
+<constant name="C_title_focused" value="blend/#001a29/#04c3bb/0.87"/>
+<constant name="C_title_unfocused" value="blend/#043745/#04c3bb/0.6"/>
 
 <!-- geometries -->
 
