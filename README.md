@@ -14,3 +14,5 @@ Wallpaper taken from https://www.wallpaperflare.com/artistic-digital-landscape-d
 
 # Cmus
 Put Neon-Night.theme in $HOME/.config/cmus. Change theme using command :colorscheme Neon-Night
+# Font
+Desktop Font - SF Mono
