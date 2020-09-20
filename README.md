@@ -12,5 +12,5 @@ Fonts Used : WildYouth, Steelfish, SFMono
 # Wallpaper 
 Wallpaper taken from https://www.wallpaperflare.com/artistic-digital-landscape-digital-art-hills-moon-minimal-art-wallpaper-cfqef 
 
-#Cmus-
+# Cmus
 Put Neon-Night.theme in $HOME/.config/cmus. Change theme using command :colorscheme Neon-Night
