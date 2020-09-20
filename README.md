@@ -18,4 +18,4 @@ Put Neon-Night.theme in $HOME/.config/cmus. Change theme using command :colorsch
 Desktop Font - SF Mono
 
 # Screenshot
-![Alt text](/Neon-NightScreenshot.png?raw=true "Title")
+![Alt text](/Neon-NightSS.png?raw=true "Title")
